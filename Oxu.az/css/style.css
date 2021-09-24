@@ -1,0 +1,60 @@
+.head-news {
+    width: 600px;
+    height: 400px;
+    border: solid 2px darkslategray;
+    display: inline-block;
+    margin-left: 200px;
+}
+#fotojet {
+    width: 600px;
+    height: 400px;
+}
+.head-ads {
+    width: 280px;
+    height: 400px;
+    border: solid 2px darkslategray;
+    display: inline-block;
+    margin-left: 32px;
+}
+.fbook {
+    width: 280px;
+    height: 400px;
+}
+.container {
+    margin-left: 200px;
+}
+.container-news {
+    width: 280px;
+    height: 350px;
+    border: solid 2px steelblue;
+    display: inline-block;
+    margin-top: 64px;
+}
+.bayraktar {
+    width: 280px;
+    height: 350px;
+}
+.container-news-middle {
+    width: 280px;
+    height: 350px;
+    border: solid 2px slateblue;
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 64px;
+}
+.opera {
+    width: 280px;
+    height: 350px;
+}
+.container-news-right {
+    width: 280px;
+    height: 350px;
+    border: solid 2px mediumslateblue;
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 64px;
+}
+.weather {
+    width: 280px;
+    height: 350px;
+}
