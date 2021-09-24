@@ -1,31 +1,50 @@
 .container {
     background-color: rgb(223, 231, 231);
-    height: 600px;
+    height: 350px;
 }
 .container-header {
     width: 900px;
-    height: 200px;
+    height: 100px;
     margin: 0 auto;
+    text-align: center;
     /*border: solid 1px red;*/
 }
 h1 {
-    padding: 100px 335px;
+    padding: 10px 335px;
 }
 .container-service {
     /*border: solid 2px purple;*/
     width: 1000px;
-    height: 250px;
+    height: 200px;
     margin: 0 auto;
 }
 .service-item {
     background-color: white;
     width: calc(100%/3 - 43px);
-    height: 350px;
+    height: 200px;
     display: inline-block;
     margin: 0 20px;
 }
-    
-
+.container-main {
+    background-color: rgb(194, 233, 233);
+    height: 450px;
+}    
+.container-building {
+    height: 100px;
+    text-align: center;
+}
+.container-menu {
+    /*border: solid 1px red;*/
+    height: 200px;
+    margin: 10px 300px;
+}
+.menu-item{
+    background-color:whitesmoke;
+    width: calc(100%/4 - 43px);
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+}
 
 
 
