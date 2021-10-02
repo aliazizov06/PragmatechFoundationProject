@@ -1,0 +1,120 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+section{
+    width: 980px;
+    margin: 0px auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.news-left{
+    border:solid 1px lightgray;
+    width: 300px;
+    height: 410px;
+}
+.news-left:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.news-left-image{
+    width: 300px;
+    height: 230px;
+}
+.news-middle{
+    border: solid 1px lightgray;
+    width: 300px;
+    height: 410px;
+}
+.news-middle:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.news-middle-image{
+    width: 300px;
+    height: 230px;
+}
+.news-right{
+    border:solid 1px lightgray;
+    width: 300px;
+    height: 410px
+}
+.news-right:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.news-right-image{
+    width: 300px;
+    height: 230px;
+}
+a{
+    text-decoration: none;
+    color: #13317F;
+}
+.news-left-image img{
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+}
+.news-middle-image img{
+    object-fit: cover;
+    width: 300px;
+    height: 230px;
+}
+.news-right-image img{
+    object-fit: cover;
+    width: 300px;
+    height: 230px;
+}
+.news-text{
+    padding: 0px 30px 0px 20px;
+}
+.buttons{
+    width: 980px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.news-button{
+    border: solid 1px lightgray;
+    width: 300px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button-like{
+    border-right: solid 1px lightgray;
+    width: 99px;
+    height: 50px;
+    background-color: #F2F2F2;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    color: #999999;
+}
+.button-dislike{
+    border-right: solid 1px lightgray;
+    width: 99px;
+    height: 50px;
+    background-color: #F2F2F2;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    color: #999999;
+}
+.button-review{
+    background-color: #F2F2F2;
+    font-size: 1.5em;
+    text-align: center;
+    color: #999999;
+}
+.button-like:hover{
+    background-color: #008D1B;
+    color: white;
+}
+.button-dislike:hover{
+    background-color: #DC0000;
+    color: white;
+}
+span{
+    font-size: 17px;
+}
