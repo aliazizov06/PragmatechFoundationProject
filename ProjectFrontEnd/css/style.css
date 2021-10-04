@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 100%;
+    background-color: #242424;
+}
+.main-section{
+    padding: 290px 550px;
+    color: white;
+    letter-spacing: 8px;
+}
+.about-section{
+    padding: 200px 620px 0px;
+}
+.about-section h4{
+    color: #686A6E;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.portfolio-section{
+    background-color: #1B1B1B;
+    padding: 150px 590px 0px;
+}
+.portfolio-section h3{
+    color: white;
+    letter-spacing: 7px;
+}
+.container-social{
+    background-color: #1B1B1B;
+    padding: 110px;
+}
+.container-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon i{
+    color: white;
+    font-size: 1.8em;
+}
+.icon i:hover{
+    color: rgb(95, 92, 82);
+    transition: all 0.8s ease-in-out;
+}
