@@ -10,11 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><div class="main-section"><h1>Ali Azizov</h1></div></header>
-    <section class="about-section"><h4>ABOUT</h4></section>
-    <section class="portfolio-section"><h3>PORTFOLIO</h3></section>
+    <header><div class="main-section"><h1>Ali Azizov</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, enim!</p></div></header>
+    <section class="about-section"><div class="about-text"><h4>ABOUT</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi libero velit est odio. Doloribus illo expedita consequuntur dolores fugiat in.</p></div></section>
+    <section class="container-portfolio"><h3>PORTFOLIO</h3></section>
     <section class="container-social">
         <div class="container-icons">
             <div class="icon"><a href="#"><i class="fab fa-linkedin"></i></a> </div>
@@ -22,12 +25,19 @@
             <div class="icon"><a href="#"><i class="fab fa-github"></i></a></div>
         </div>
     </section>
-    <section>
-        <div>
+    <section class="container-contact">
+        <div class="contact">
+            <div class="contact-icons"><i class="fas fa-mobile-alt"></i><i class="fas fa-envelope"></i></div>
+            <div class="contact-nm"><span>+994553255149</span><span>aliazizov158@gmail.com</span></div>
+        </div>
+    </section>
+    <section class="container-form">
+        <div class="form-group">
             <form action="">
-                <input type="text" name="name" placeholder="NAME" required>
-                <input type="text" name="email" placeholder="EMAIL" required>
-                <textarea name="message" id="message" cols="100" rows="7" placeholder="MESSAGE"></textarea>
+                <input type="text" name="name" placeholder="NAME" required><br>
+                <input type="text" name="email" placeholder="EMAIL" required><br>
+                <textarea name="message" id="message" cols="10" rows="5" placeholder="MESSAGE"></textarea>
+                <button class="btn">SEND MESSAGE</button>
             </form>
         </div>
     </section>

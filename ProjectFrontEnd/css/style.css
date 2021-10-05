@@ -4,27 +4,34 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 header{
-    height: 100%;
     background-color: #242424;
 }
 .main-section{
-    padding: 290px 550px;
+    padding: 290px 460px;
     color: white;
     letter-spacing: 8px;
 }
-.about-section{
-    padding: 200px 620px 0px;
+.main-section p{
+    position: absolute;
+    letter-spacing: normal;
 }
-.about-section h4{
+.about-section{
+    padding-left: 480px;
+}
+.about-text h4{
     color: #686A6E;
     letter-spacing: 5px;
     font-weight: 600;
+    text-align: center;
 }
-.portfolio-section{
+.about-text{
+    width: 400px;
+}
+.container-portfolio{
     background-color: #1B1B1B;
     padding: 150px 590px 0px;
 }
-.portfolio-section h3{
+.container-portfolio h3{
     color: white;
     letter-spacing: 7px;
 }
@@ -41,6 +48,65 @@ header{
     font-size: 1.8em;
 }
 .icon i:hover{
-    color: rgb(95, 92, 82);
+    color: rgba(158, 152, 101, 0.753);
     transition: all 0.8s ease-in-out;
+}
+.container-contact{
+    background-color: #171717;
+    padding: 300px 100px;
+}
+.contact{
+    color: white;
+    /*display: flex;
+    justify-content: space-around;*/
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.contact-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px 20px 150px;
+    font-size: 1.5rem;
+}
+.contact-nm{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px
+}
+.icon-phone{
+    margin-left: 50px;
+}
+.container-form{
+    background-color: #1B1B1B;
+    padding: 30px 80px;
+}
+.form-group input, textarea{
+    background-color: #1B1B1B;
+    width: 100%;
+    margin-top: 50px;;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+    padding: 15px;
+    color: rgb(204, 189, 156);
+    border-color: rgb(216, 190, 142);
+}
+.form-group input:focus, textarea:focus{
+    border-color: rgba(151, 140, 140, 0.555);
+    border-bottom-width: 0.1px;
+    transition: all 1s cubic-bezier(.38,.66,.26,.52);
+}
+::placeholder{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 0.9em;
+}
+.btn{
+    background-color: rgb(233, 216, 120);
+    font-family: 'Noto Sans Display', sans-serif;
+    padding: 20px 30px;
+    margin: 50px 490px;
+    letter-spacing: 3px;
+    border: none;
+    cursor: pointer;
 }
