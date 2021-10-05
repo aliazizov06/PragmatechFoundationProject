@@ -6,14 +6,22 @@ body{
 header{
     background-color: #242424;
 }
-.main-section{
+.main-text{
     padding: 290px 460px;
     color: white;
     letter-spacing: 8px;
 }
-.main-section p{
+.main-text p{
     position: absolute;
     letter-spacing: normal;
+}
+.menu-icon{
+    color: #898989;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-left: 1270px;
+    cursor: pointer;
+    position: fixed;
 }
 .about-section{
     padding-left: 480px;
@@ -57,8 +65,6 @@ header{
 }
 .contact{
     color: white;
-    /*display: flex;
-    justify-content: space-around;*/
     font-family: 'Noto Sans Display', sans-serif;
 }
 .contact-icons{
@@ -102,9 +108,9 @@ header{
     font-size: 0.9em;
 }
 .btn{
-    background-color: rgb(233, 216, 120);
+    background-color: rgb(190, 183, 138);
     font-family: 'Noto Sans Display', sans-serif;
-    padding: 20px 30px;
+    padding: 17px 40px;
     margin: 50px 490px;
     letter-spacing: 3px;
     border: none;
