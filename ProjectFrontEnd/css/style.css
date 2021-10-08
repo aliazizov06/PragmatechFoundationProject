@@ -26,7 +26,7 @@ header{
 }
 .menu-icon:hover{
     color: rgba(236, 218, 218, 0.747);
-    transition: all 0.2s linear;
+    transition: all .3s linear;
 }
 /*header end*/
 /*about-section start*/
@@ -47,42 +47,35 @@ header{
 }
 .about-icons i{
     font-size: 3em;
-    color: rgba(88, 84, 79, 0.918);
+    color: rgba(36, 34, 31, 0.918);
 }
 /*about-section end*/
-/*container-skills section start*/
-.container-skills{
-    background-color: #141313dc;
-}
-.container-skills h3{
-    padding-top: 100px;
-    text-align: center;
-    letter-spacing: 3px;
-    color: cornsilk;
-}
-.skill-icons{
-    padding: 50px 200px;
-    font-size: 4em;
-    display: grid;
-    grid-template-columns: repeat(5, 0.5fr);
-}
-.skill-html{
-    color: rgb(192, 53, 11);
-}
-.skill-css{
-    color: rgb(53, 80, 168);
-}
-/*container-skills section end*/
 /*container-portfolio section start*/
 .container-portfolio{
-    padding: 150px 590px 0px;
+     background-color: #292727;
+     padding: 100px 50px;
 }
-.container-portfolio h3{
-    color: black;
+.portfolio-heading{
+    margin: 50px 540px;
+}
+.portfolio-heading h3{
+    color: cornsilk;
     letter-spacing: 7px;
 }
+.portfolio-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 380px;
+    height: 350px;
+    object-fit: cover;
+}
+.card img{
+    width: 380px;
+    height: 350px;
+}
 /*container-portfolio section end*/
-
 /*container-social section start*/
 .container-social{
     background-color: #1B1B1B;
