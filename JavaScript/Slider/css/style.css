@@ -1,0 +1,28 @@
+#big-image{
+    margin: 80px auto 0;
+    /*border: solid 1px firebrick;*/
+    width: 800px;
+    height: 400px;
+}
+#big-image img{
+    width: 800px;
+    height: 400px;
+    cursor: pointer;
+}
+.small-images{
+    margin: 0 auto;
+    /*border: solid 1px slateblue;*/
+    width: 800px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.small-images img:hover{
+    transition: all .5s ease-in;
+    cursor: pointer;
+    filter: brightness(60%);
+}
+.small-images img{
+    width: 200px;
+    height: 100px;
+}
