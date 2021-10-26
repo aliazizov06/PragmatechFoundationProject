@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+section{
+    width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+.slider-container{
+    display: grid;
+    gap: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: all 2.5s ease;
+}
+.slider-item{
+    height: 200px;
+    background-color: rgb(255, 185, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.slider-buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(139, 132, 132); 
+    margin: 20px 5px;
+}
+.button:hover{
+    background-color: rgb(192, 181, 181);
+    cursor: pointer;
+}
