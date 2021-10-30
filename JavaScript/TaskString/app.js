@@ -7,7 +7,3 @@ val = str.split(' ')
 
 //str daxilində neçə hərf olduğunu ekrana yazdırın
 val = str.replace(/ /g,'').replace(/,/g,'').length
-
-//
-val = str.split("-1")
-console.log(val)
