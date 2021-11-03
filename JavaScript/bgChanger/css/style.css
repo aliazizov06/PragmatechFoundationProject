@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+button{
+    padding: 10px 15px;
+    color: rgb(255, 0, 43);
+    background-color: rgba(238, 118, 63, 0.705);
+    border-radius: 15px;
+    cursor: pointer;
+}
