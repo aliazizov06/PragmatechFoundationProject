@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onclick="closeMenu()">
     <!--header start-->
     <header class="main-section">
         <div class="menu-icon"><i class="fas fa-bars"></i></div>
@@ -24,6 +24,20 @@
         </div>
     </header>
     <!--header end-->
+    <!--menu section start-->
+    <section id="sidebar-menu">
+        <div class="menu-content">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Follow</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--menu section end-->
     <!--about-section start-->
     <section class="about-section">
         <div class="about-text">
@@ -36,6 +50,19 @@
         </div>
     </section>
     <!--about-section end-->
+    <!--container-skills section start-->
+    <section class="container-skills">
+        <h3>SKILLS</h3>
+        <div class="skill-icons">
+            <span><i class="fab fa-html5 skill skill-html"></i></span>
+            <span><i class="fab fa-css3-alt skill skill-css"></i></span>
+            <span><i class="fab fa-bootstrap skill skill-bootstrap"></i></span>
+            <span><i class="fab fa-js skill skill-js"></i></span>
+            <span><i class="fas fa-database skill skill-sql"></i></span>
+            <span></span>
+        </div>
+    </section>
+    <!--container-skills section end-->
     <!--container-portfolio section start-->
     <section class="container-portfolio">
         <div class="portfolio-heading"><h3>PORTFOLIO</h3></div>
@@ -75,5 +102,6 @@
         </div>
     </section>
     <!--container-form section end-->
+    <script src="app.js"></script>
 </body>
 </html>
