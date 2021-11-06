@@ -1,14 +1,22 @@
 body{
-    margin: 0px;
+    margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
 }
 button{
-    padding: 10px 15px;
-    color: rgb(255, 0, 43);
-    background-color: rgba(238, 118, 63, 0.705);
-    border-radius: 15px;
+    padding: 20px 30px;
+    margin-top: 50px;
+    color: black;
+    background-color: transparent;
+    border-radius: 2px;
     cursor: pointer;
+    border: solid 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    letter-spacing: 4px;
 }
