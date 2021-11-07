@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+section{
+    background-color: rgb(10, 15, 15);
+    width: 25%;
+    height: 100vh; 
+}
+div{
+    padding: 100px 0;
+    color: white;
+}
+div ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    list-style-type: none;
+    padding: 10px;
+}
+div ul li:hover{
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: scale(1.02);
+    transition: all .1s ease-in-out;
+}
+.exit{
+    color: red;
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    font-size: 3em;
+}
+.exit:hover{
+    color: wheat;
+    filter: brightness(200%);
+    cursor: pointer;
+    transition: all .1s ease;
+    font-size: 2.9em;
+}
+.menu{
+    position: fixed;
+    top: 25px;
+    left: 500px;
+    font-size: 3em;
+    cursor: pointer;
+}
+.menu:hover{
+    color: rgb(44, 111, 211);
+    transition: all .3s linear;
+    transform: scale(1.02);
+}
