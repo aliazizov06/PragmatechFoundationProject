@@ -25,14 +25,15 @@ telebeler=[
     'yas':50
     }
 ]
+
 #Butun adlari ekrana cap edin
 for i in telebeler:
     print(i['ad'])
+
 #Istifadecilerin yaslarinin cemini tapin
 sum = 0
-for i in telebeler:
-    sum+=i['yas']
-    print(sum)
-
+for j in telebeler:
+    sum+=j['yas']
+print(sum)
 
 #adi Ehmed olan istifadecinin butun melumatlarini ekrana cap edin
